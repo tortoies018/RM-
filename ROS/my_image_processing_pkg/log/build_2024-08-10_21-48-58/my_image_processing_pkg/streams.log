@@ -1,0 +1,37 @@
+[1.298s] Invoking command in '/home/gg/ros2_ws/src/my_image_processing_pkg': PYTHONPATH=/home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_image_processing_pkg build --build-base /home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/build install --record /home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/install.log --single-version-externally-managed install_data
+[1.947s] running egg_info
+[1.949s] creating build/my_image_processing_pkg/my_image_processing_pkg.egg-info
+[1.949s] writing build/my_image_processing_pkg/my_image_processing_pkg.egg-info/PKG-INFO
+[1.950s] writing dependency_links to build/my_image_processing_pkg/my_image_processing_pkg.egg-info/dependency_links.txt
+[1.951s] writing entry points to build/my_image_processing_pkg/my_image_processing_pkg.egg-info/entry_points.txt
+[1.952s] writing requirements to build/my_image_processing_pkg/my_image_processing_pkg.egg-info/requires.txt
+[1.953s] writing top-level names to build/my_image_processing_pkg/my_image_processing_pkg.egg-info/top_level.txt
+[1.953s] writing manifest file 'build/my_image_processing_pkg/my_image_processing_pkg.egg-info/SOURCES.txt'
+[1.956s] reading manifest file 'build/my_image_processing_pkg/my_image_processing_pkg.egg-info/SOURCES.txt'
+[1.958s] writing manifest file 'build/my_image_processing_pkg/my_image_processing_pkg.egg-info/SOURCES.txt'
+[1.959s] running build
+[1.959s] running build_py
+[1.959s] creating /home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/build
+[1.960s] creating /home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/build/lib
+[1.960s] creating /home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/build/lib/my_image_processing_pkg
+[1.960s] copying my_image_processing_pkg/__init__.py -> /home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/build/lib/my_image_processing_pkg
+[1.961s] copying my_image_processing_pkg/image_processor.py -> /home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/build/lib/my_image_processing_pkg
+[1.962s] running install
+[1.963s] running install_lib
+[1.964s] creating /home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/lib/python3.10/site-packages/my_image_processing_pkg
+[1.965s] copying /home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/build/lib/my_image_processing_pkg/__init__.py -> /home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/lib/python3.10/site-packages/my_image_processing_pkg
+[1.965s] copying /home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/build/lib/my_image_processing_pkg/image_processor.py -> /home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/lib/python3.10/site-packages/my_image_processing_pkg
+[1.966s] byte-compiling /home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/lib/python3.10/site-packages/my_image_processing_pkg/__init__.py to __init__.cpython-310.pyc
+[1.967s] byte-compiling /home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/lib/python3.10/site-packages/my_image_processing_pkg/image_processor.py to image_processor.cpython-310.pyc
+[1.968s] running install_data
+[1.969s] creating /home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/share/ament_index
+[1.969s] creating /home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/share/ament_index/resource_index
+[1.969s] creating /home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/share/ament_index/resource_index/packages
+[1.970s] copying resource/my_image_processing_pkg -> /home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/share/ament_index/resource_index/packages
+[1.972s] copying package.xml -> /home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/share/my_image_processing_pkg
+[1.973s] running install_egg_info
+[1.977s] Copying build/my_image_processing_pkg/my_image_processing_pkg.egg-info to /home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/lib/python3.10/site-packages/my_image_processing_pkg-0.0.0-py3.10.egg-info
+[1.980s] running install_scripts
+[2.022s] Installing image_processor script to /home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/lib/my_image_processing_pkg
+[2.024s] writing list of installed files to '/home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/install.log'
+[2.075s] Invoked command in '/home/gg/ros2_ws/src/my_image_processing_pkg' returned '0': PYTHONPATH=/home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gg/ros2_ws/src/my_image_processing_pkg/install/my_image_processing_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_image_processing_pkg build --build-base /home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/build install --record /home/gg/ros2_ws/src/my_image_processing_pkg/build/my_image_processing_pkg/install.log --single-version-externally-managed install_data
